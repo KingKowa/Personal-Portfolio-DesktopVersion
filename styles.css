@@ -1,0 +1,132 @@
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Poppins, sans-serif;
+  height: 100vh;
+  background-color: #E5E5E5;
+}
+
+.header-wrapper {
+    background-image: url("images/header-background-shape-desktop.svg");
+    width: 1200px;
+    height: 916px;
+    margin: 0 auto;
+    padding-left: 155px;
+    padding-right: 154px;
+    padding-top: 25px;
+
+}
+
+.nav-items {
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-items .nav-menu {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    transition: transform 2s;
+}
+
+.nav-items .nav-menu:hover {
+    transform: rotate(45 deg);
+}
+
+.nav-items .nav-menu li a {
+    margin-left: 16px;
+    margin-right: 16px;
+    text-decoration: none;
+    color: #344563;
+    font-size: 15px;
+}
+
+.desk-header h1 {
+    margin-left: 105px;
+    margin-top: 314px;
+    margin-right: 261px;
+    width: 920px;
+    height: 122px;
+    text-align: left;
+    color: #091E42;
+    font-size: 48px;
+    font-weight: bold;
+    animation-name: kowa;
+    animation-duration: 6s;
+}
+
+@keyframes kowa {
+    0% {
+        transform:scale(1);
+    }
+    25% {
+        transform: scale(1.5);
+    }
+    50% {
+        transform: rotate(45 deg);
+        color: tomato;
+    }
+    100% {
+        transform: rotate(0);
+    }
+}
+
+.desk-header p {
+    margin-top: 12px;
+    margin-left: 105px;
+    margin-right: 261px;
+    width: 920px;
+    height: 98px;
+    text-align: left;
+}
+
+.desk-header h4 {
+    margin-top: 12px;
+    margin-left: 105px;
+    color: #7f8cff;
+    font-size: 16px;
+}
+
+.desk-header .social-icons {
+    margin-left: 70px;
+    margin-top: 16px;
+}
+
+.social-icons ul{
+    display: flex;
+    list-style: none;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+
+.social-icons ul li {
+    padding-right: 20px;
+    display: inline-block;
+}
+
+.main-content {
+    display: grid;
+    row-gap: 142px;
+}
+
+
+.first-section {
+    display: flex;
+    margin-top: 142px;
+}
+
+.second-section {
+    display: flex;
+}
+
+.third-section {
+    display: flex;
+}
+
+.fourth-section {
+    display: flex;
+}
